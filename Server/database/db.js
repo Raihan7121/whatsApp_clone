@@ -16,6 +16,7 @@ const Connection = async () =>{
    // const url=`mongodb+srv://Rakib:1234@clone-whatsapp.6zaksqo.mongodb.net/`;
     try {
        await mongoose.connect(url , { useUnifiedTopology:true });
+       //await mongoose.connect(url);
        console.log('Datyabaes connected successfully');
     }catch(error){
 
